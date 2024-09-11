@@ -11,4 +11,4 @@ RUN apt-get update &&\
 RUN rm -rf /var/lib/apt/lists/* &&\
     apt clean
 
-EXPOSE 80 8086 3388
+EXPOSE 80 8086 3306 3388 
